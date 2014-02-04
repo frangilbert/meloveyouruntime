@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          'The Jekyll Butler'
-description:      'Base theme for Jekyll themes by @mdo.'
-url:              http://getpoole.com
+title:            Me Love You Runtime
+tagline:          'Code Monkey!'
+description:      ''
+url:              http://frangilbert.github.io/meloveyouruntime/
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Francis Gilbert'
+  url:            https://twitter.com/frangilbert
 
 paginate:         1
 
