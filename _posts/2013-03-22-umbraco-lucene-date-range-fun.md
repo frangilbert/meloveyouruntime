@@ -2,7 +2,7 @@
 layout: post
 title:  "Umbraco Lucene Date Range fun"
 comments: true
-categories: [asp.net,C#,CMS,Date Range,Indexing,Lucene,Umbraco]
+categories: [asp.net,C,CMS,Date Range,Indexing,Lucene,Umbraco]
 ---
 
 You know days when you think everything is fine, then you hit a snag and it takes the rest of the day? Yup. That happened today. The issue this time was with an Umbraco implementation I am working on at the moment.
@@ -13,7 +13,7 @@ The best thing to do is to convert the string before putting in the index. Umbra
 
 You can then use the following method to add the custom string in:
 
-{% highlight cs %}
+{% highlight js %}
 public void OnApplicationStarting(UmbracoApplication httpApplication, ApplicationContext applicationContext)
 {
 	var siteIndexer = ExamineManager.Instance.IndexProviderCollection["IndexerName"];
@@ -28,6 +28,6 @@ void GatheringTagIndexDataHandler(object sender, IndexingNodeDataEventArgs e)
 {% endhighlight %}
 
 If you want to override a field already in Lucene, you can just remove it first by using:
-{% highlight cs %}e.Fields.Remove("yourfieldname"){% endhighlight %}
+{% highlight js %}e.Fields.Remove("yourfieldname"){% endhighlight %}
 
 Good luck!
