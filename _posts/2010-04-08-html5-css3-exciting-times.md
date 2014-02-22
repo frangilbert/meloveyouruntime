@@ -10,6 +10,8 @@ After rebuilding my site in HTML5 and using CSS3 I have decided to do a small se
 So the first in the series is this post, and it will be the shortest post. The Doctype. Now, every time I start a site, I can never remember the full Doctype, especially for XHTML 1.0 which is quite lengthy. I do find the following as a quick lookup very useful though: http://perishablepress.com/press/2006/08/30/xhtml-document-header-resource/.
 
 HTML5 is different, the doctype is:
+{% highlight html %}
 <!DOCTYPE html>
+{% endhighlight %}
 
 Lovely! It is that simple, love it!

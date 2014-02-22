@@ -7,7 +7,7 @@ categories: [Uncategorized]
 
 I recently wrote a small amount of code to generate a password without using a GUID  or something. Pretty simple stuff, but good for a library.
 
-
+{% highlight cs %}
 string pwdChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789";
 char[] pwdElements = pwdChars.ToCharArray();
 
@@ -22,4 +22,4 @@ for(int i = 0; i < passwordLength; i++)
 }
 
 return builder.ToString();
-
+{% endhighlight %}

@@ -13,19 +13,21 @@ The best thing to do is to convert the string before putting in the index. Umbra
 
 You can then use the following method to add the custom string in:
 
+{% highlight cs %}
 public void OnApplicationStarting(UmbracoApplication httpApplication, ApplicationContext applicationContext)
-        {
-            var siteIndexer = ExamineManager.Instance.IndexProviderCollection["IndexerName"];
-            siteIndexer.GatheringNodeData += GatheringSiteIndexDataHandler;
-        }
+{
+	var siteIndexer = ExamineManager.Instance.IndexProviderCollection["IndexerName"];
+	siteIndexer.GatheringNodeData += GatheringSiteIndexDataHandler;
+}
 
 void GatheringTagIndexDataHandler(object sender, IndexingNodeDataEventArgs e)
-        {
-            var node = new Node(e.NodeId);
-            e.Fields.Add("yourdatefield", "your new date string");
-        }
+{
+	var node = new Node(e.NodeId);
+	e.Fields.Add("yourdatefield", "your new date string");
+}
+{% endhighlight %}
 
 If you want to override a field already in Lucene, you can just remove it first by using:
-e.Fields.Remove("yourfieldname")
+{% highlight cs %}e.Fields.Remove("yourfieldname"){% endhighlight %}
 
 Good luck!

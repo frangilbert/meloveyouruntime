@@ -9,6 +9,7 @@ I'm going to admit now that I have issues with validating date formats. Not so m
 
 Why would one use Javascript to check for age? Facebook! Facebook apps reply on Javascript for validation etc. So after looking round the internets, I found this useful function:
 
+{% highlight js %}
 function checkdate(input){
      var validformat=/^d{2}/d{2}/d{4}$/ //Basic check for format validity
      if (!validformat.test(input))
@@ -25,5 +26,5 @@ function checkdate(input){
           alert("valid");
      }
 }
-
+{% endhighlight %}
 Still fiddly, but it works. Enjoy. Any feedback welcome as usual.

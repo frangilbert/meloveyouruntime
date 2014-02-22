@@ -10,8 +10,9 @@ remote add origin [remote repo url here]
 
 But in Mercurial, there doesn't seem to be such a thing. I'm sure there is, and please, if you have found one, just leave a comment. In the meantime, the best I have is to add an hgrc file in your .hg folder (created when hg init is run). This should contain the following:
 
+{% highlight git %}
 [paths]
 default = https://[your repo url here]
-
+{% endhighlight %}
 
 I hope this helps someone.

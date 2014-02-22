@@ -18,7 +18,7 @@ To add the "Content-Length" header to the "Response" headers, please perform the
 2. Change the old handlers in the "configurationsystem.webhandlers" and "configurationsystem.webhttpHandlers" with the new ones:
  
 For example:
-
+{% highlight xml %}
 <handlers>
 …
 <add verb="*" path="sitecore_media.ashx" type="Sitecore.Customization.CustomMediaRequestHandler, Sitecore.Customization" name="CustomMediaRequestHandler" />
@@ -29,7 +29,7 @@ For example:
 <add verb="*" path="sitecore_media.ashx" type="Sitecore.Customization.CustomMediaRequestHandler, Sitecore.Customization " />
 …
 </httpHandlers>
-
+{% endhighlight %}
  
 I have attached the Sitecore.Customization.dll I created for this which is the compiled CustomMediaMediaRequestHandler.cs ([Download Sitecore.Customization.dll here](http://files.meloveyouruntime.com/Sitecore.Customization.dll) or [the zip here](http://files.meloveyouruntime.com/Sitecore.Customization.zip)). Clear cache and BINGO! All good.
  

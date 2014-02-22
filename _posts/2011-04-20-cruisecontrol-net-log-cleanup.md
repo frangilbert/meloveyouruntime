@@ -13,18 +13,18 @@ One dev wrote a Powershell script which just scans the logs folders and deletes 
 
 You just add the following in your publishers area for projects in your Cruisecontrol config file:
 
-```
+{% highlight xml %}
 <artifactcleanup cleanUpMethod="KeepLastXBuilds" cleanUpValue="50" />
-```
+{% endhighlight %}
 
 Let's put that in the context of a project:
 
-```
+{% highlight xml %}
 <publishers>
    <xmllogger/>
    <artifactcleanup cleanUpMethod="KeepLastXBuilds" cleanUpValue="10" />
 </publishers>
-```
+{% endhighlight %}
 
 This will then only keep the last 10 logs, you can also cleanup by file age. You can read more here:
 [http://build.nauck-it.de/doc/CCNET/Artifact%20Cleanup%20Publisher.html](http://build.nauck-it.de/doc/CCNET/Artifact%20Cleanup%20Publisher.html)
