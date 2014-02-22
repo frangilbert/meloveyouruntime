@@ -2,7 +2,7 @@
 layout: post
 title:  "Umbraco Lucene Date Range fun"
 comments: true
-categories: [asp.net,C#,CMS,Date Range,Indexing,Lucene,Lucene,Umbraco,Umbraco]
+categories: [asp.net,C#,CMS,Date Range,Indexing,Lucene,Umbraco]
 ---
 
 You know days when you think everything is fine, then you hit a snag and it takes the rest of the day? Yup. That happened today. The issue this time was with an Umbraco implementation I am working on at the moment.
