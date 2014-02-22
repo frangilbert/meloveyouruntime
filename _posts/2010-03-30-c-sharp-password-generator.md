@@ -7,7 +7,7 @@ categories: [Uncategorized]
 
 I recently wrote a small amount of code to generate a password without using a GUID  or something. Pretty simple stuff, but good for a library.
 
-{% highlight cs %}
+{% highlight js %}
 string pwdChars = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789";
 char[] pwdElements = pwdChars.ToCharArray();
 

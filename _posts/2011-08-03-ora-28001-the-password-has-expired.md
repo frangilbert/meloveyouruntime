@@ -8,7 +8,7 @@ categories: [Database,Oracle,Password,Sitecore]
 Recently, I have been working with a client who uses Oracle as their database. We have been running Sitecore from this and it works ok, bar a few bugs.
 
 However, one day, without warning, we started getting the following error:
-{% highlight shell %}
+{% highlight js %}
 ORA-28001: the password has expired
 {% endhighlight %}
 

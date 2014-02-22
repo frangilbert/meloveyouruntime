@@ -8,22 +8,22 @@ categories: [Database,Oracle,system user]
 I recently got locked out of my Oracle DB (before you think I am an Oracle fan, I am not, but hopefully this will help others who have had the struggle). Someone had changed the SYSTEM user password and not noted it down. I managed to work out a way of changing this. You do need access to the DB box of course. Then you need to go into SQL Plus, Oracle's Command Line tool.
 
 To open this time though, type:
-{% highlight shell %}
+{% highlight js %}
 sqlplus "/ as sysdba"
 {% endhighlight %}
 
 You should be logged into Oracle now. Have a look at whether you are now a SYS user by trying:
-{% highlight shell %}
+{% highlight js %}
 SQL> show user
 {% endhighlight %}
 
 It should respond as:
-{% highlight shell %}
+{% highlight js %}
 USER is "SYS"
 {% endhighlight %}
 
 If all is well by this point, you can then change the SYSTEM password.
-{% highlight shell %}
+{% highlight js %}
 SQL> passw system
 {% endhighlight %}
 

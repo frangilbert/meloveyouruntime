@@ -10,13 +10,13 @@ Recently at work, we've been getting into Selenium tests for regression testing.
 A developer was working on getting each link in a page within a div to be checked. The issue was that these could be on different levels (it was a Sitemap). e.g. one link may be in a list item, the next may be embedded within another sub-list item.
 
 We had real issues in getting all the links in the right way. We tried:
-{% highlight xpath %}
+{% highlight xml %}
 //div[@id='mod-site-map']//a
 {% endhighlight %}
 (The a's would be iterated through) with varying degrees of success.
 
 I'd forgotten descendants completely. In a head slapping moment, we tried:
-{% highlight xpath %}
+{% highlight xml %}
 //div[@id='mod-site-map']/descendant::a
 {% endhighlight %}
 

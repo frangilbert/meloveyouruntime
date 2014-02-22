@@ -8,7 +8,7 @@ categories: [CSS]
 A new selector is available in CSS3. It goes something like:
 ::selection and it allows the user to change the highlight colour of the page. e.g.
 
-{% highlight css %}
+{% highlight js %}
 .red::selection {
 	background: #ff0000;
 }

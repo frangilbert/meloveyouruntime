@@ -16,7 +16,7 @@ Let's run through this. I execute msbuild pointing to my csproj (or vbproj if yo
 
 So that's the package done. I hope you're with me so far. Next is the push to server. If you have read Scott Gu's post linked to above, it shows you how to set up IIS to accept this type of deploy. Then you just need to change directory (cd) to where your package is built, it will have also added a few extra files, the one we want is MyProject.deploy.cmd. It's just a command line template to run for this project. Run this:
 
-{% highlight ps %}
+{% highlight js %}
 MyProject.deploy.cmd /y /M:https://WebDeployUrl:8172/MsDeploy.axd /u:username /p:password –allowUntrusted /A:basic
 {% endhighlight %}
 

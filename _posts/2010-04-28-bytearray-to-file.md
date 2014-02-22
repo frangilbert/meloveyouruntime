@@ -7,7 +7,7 @@ categories: [Uncategorized]
 
 I work a lot with Flash developers (or actionscripters) and most of the time Flash will need to post a form to the server to process or something similar. A server side developer will then write some services to receive or return data to the Flash. Sometimes the data isn't that standard. Sometimes the Flash will generate an image and will want to save it to the server. It will post a ByteArray to the server, this term scares some developers for some reason. It is just a raw file in a load of bytes. But it needs to be processed to become an image or other file again to be saved. This is how easy it is:
 
-{% highlight cs %}
+{% highlight js %}
 //Read byte array into
 byte[] byteArray = [the byte array from the flash];
 MemoryStream mStream = new MemoryStream();
