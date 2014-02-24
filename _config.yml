@@ -6,13 +6,14 @@ pygments:         false
 permalink:        /:year/:month/:day/:title
 
 # Setup
+name:            Me Love You Runtime
 title:            Me Love You Runtime
-tagline:          'Code Monkey!'
-description:      ''
-url:              http://frangilbert.github.io/meloveyouruntime/
+tagline:          Code Monkey!
+description:      Me Love You Runtime
+url:              http://www.meloveyouruntime.com
 
 author:
-  name:           'Francis Gilbert'
+  name:           Francis Gilbert
   url:            https://twitter.com/frangilbert
 
 paginate:         1
