@@ -7,7 +7,7 @@ categories: [cognitive dissonance,General,problems,rubber duck debugging]
 
 I've written about this before in my last, not so focused blog, but I'll write it again. There are a few simple non-programming programmer rules I like to adhere to. These would be things like KISS (Keep It Simple Stupid) etc. Another lesser known one of these is [Rubber Duck Debugging](http://en.wikipedia.org/wiki/Rubber_duck_debugging).
 
-![The duck on my desk](http://meloveyouruntime.wordpress.com/wp-content/uploads/2011/10/img_20111012_144252.jpg?w=225)
+![The duck on my desk](http://meloveyouruntime.files.wordpress.com/2011/10/img_20111012_144252.jpg?w=225)
 
 When you hit a conundrum while coding, it is very easy to sit and suffer, draw diagrams etc. Many (including myself) tend to internalise this and not speak it. Usually, if you then ask another programmer, by the time you have explained the problem you have worked it out because you have externalised the issue.
 

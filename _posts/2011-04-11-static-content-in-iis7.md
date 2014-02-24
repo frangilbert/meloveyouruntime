@@ -11,4 +11,4 @@ This means that when I start my site, it generally works straight away, but no i
 
 To rectify, just go to your server and in your Server Manager within the Roles area, in Role Services, select Static Content under the Common HTTP Features category and try again.
 
-![](http://meloveyouruntime.wordpress.com/wp-content/uploads/2011/04/static_content.gif)
+![](http://meloveyouruntime.files.wordpress.com/2011/04/static_content.gif)
