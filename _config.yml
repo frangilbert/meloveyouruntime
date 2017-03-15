@@ -20,9 +20,7 @@ paginate:         5
 
 # Custom vars
 version:          2.0.0
-
-github:
-  repo:           https://github.com/poole/poole
+repository:       frangilbert/meloveyouruntime
   
 sass:
   sass_dir:          _sass
