@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-pygments:         false
+markdown:         kramdown
+highlighter:         null
 
 # Permalinks
 permalink:        /:year/:month/:day/:title
@@ -16,10 +16,18 @@ author:
   name:           Francis Gilbert
   url:            https://twitter.com/frangilbert
 
-paginate:         1
+paginate:         5
 
 # Custom vars
-version:          1.0.0
+version:          2.0.0
 
 github:
   repo:           https://github.com/poole/poole
+  
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
