@@ -1,6 +1,9 @@
 # Dependencies
 markdown:         kramdown
-highlighter:         null
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Permalinks
 permalink:        /:year/:month/:day/:title
