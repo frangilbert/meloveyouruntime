@@ -44,4 +44,6 @@ functions:
           cors: true
 {% endhighlight %}
 
- You can even run the Lambda function locally by using [invoke local](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/) {% highlight bash %}serverless invoke local: --function myfunction{% endhighlight %} Which is great for dev testing.
+ You can even run the Lambda function locally by using [invoke local](https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/) {% highlight bash %}serverless invoke local: --function myfunction{% endhighlight %}. This is useful for local development.
+
+ Serverless is a great, powerful way to quickly deploy Lambda based services (or Functions if using Azure) and the best part is, it'll work with your current system just by adding a yaml file. In this short blog post I've given a quick example of how to deploy a simple Lambda & API Gateway endpoint. You can also set up a Dynamo DB instance and many other services in the yaml file.
